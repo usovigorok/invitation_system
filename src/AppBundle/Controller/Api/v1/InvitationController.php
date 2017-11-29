@@ -101,7 +101,7 @@ class InvitationController extends Controller
   }
 
   /**
-   * @Route("/api/v1/accept/{receiverId}/{invitationId}")
+   * @Route("/api/v1/decline/{receiverId}/{invitationId}")
    * @Method("GET")
    */
   public function declineAction($receiverId, $invitationId) {
